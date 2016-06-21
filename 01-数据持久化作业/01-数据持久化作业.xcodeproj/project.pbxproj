@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCECBDFC1D177FF20096B55D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCECBDFB1D177FF20096B55D /* main.m */; };
+		CCECBDFF1D177FF20096B55D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCECBDFE1D177FF20096B55D /* AppDelegate.m */; };
+		CCECBE021D177FF20096B55D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCECBE011D177FF20096B55D /* ViewController.m */; };
+		CCECBE051D177FF20096B55D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCECBE031D177FF20096B55D /* Main.storyboard */; };
+		CCECBE071D177FF20096B55D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCECBE061D177FF20096B55D /* Assets.xcassets */; };
+		CCECBE0A1D177FF20096B55D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCECBE081D177FF20096B55D /* LaunchScreen.storyboard */; };
+		CCECBE171D17867E0096B55D /* QYstudent.m in Sources */ = {isa = PBXBuildFile; fileRef = CCECBE161D17867E0096B55D /* QYstudent.m */; };
+		CCECBE1A1D178DBC0096B55D /* QYDataBaseTool.m in Sources */ = {isa = PBXBuildFile; fileRef = CCECBE191D178DBC0096B55D /* QYDataBaseTool.m */; };
+		CCECBE1E1D17C7C00096B55D /* QYinsertIntoVc.m in Sources */ = {isa = PBXBuildFile; fileRef = CCECBE1D1D17C7C00096B55D /* QYinsertIntoVc.m */; };
+		CCECBE221D17CE930096B55D /* QYUpdateVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CCECBE211D17CE930096B55D /* QYUpdateVC.m */; };
+		F84C4CD9E644CC82CAB18AAE /* libPods-01-数据持久化作业.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 75CEE8267A8DA6969BB4DAF2 /* libPods-01-数据持久化作业.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0AE6B7F3EEE7282C0E34C1C6 /* Pods-01-数据持久化作业.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-01-数据持久化作业.release.xcconfig"; path = "Pods/Target Support Files/Pods-01-数据持久化作业/Pods-01-数据持久化作业.release.xcconfig"; sourceTree = "<group>"; };
+		23705988E276BF8F33A6E3EF /* Pods-01-数据持久化作业.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-01-数据持久化作业.debug.xcconfig"; path = "Pods/Target Support Files/Pods-01-数据持久化作业/Pods-01-数据持久化作业.debug.xcconfig"; sourceTree = "<group>"; };
+		75CEE8267A8DA6969BB4DAF2 /* libPods-01-数据持久化作业.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-01-数据持久化作业.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCECBDF71D177FF20096B55D /* 01-数据持久化作业.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "01-数据持久化作业.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCECBDFB1D177FF20096B55D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CCECBDFD1D177FF20096B55D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CCECBDFE1D177FF20096B55D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CCECBE001D177FF20096B55D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CCECBE011D177FF20096B55D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CCECBE041D177FF20096B55D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCECBE061D177FF20096B55D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCECBE091D177FF20096B55D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CCECBE0B1D177FF20096B55D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCECBE151D17867E0096B55D /* QYstudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYstudent.h; sourceTree = "<group>"; };
+		CCECBE161D17867E0096B55D /* QYstudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYstudent.m; sourceTree = "<group>"; };
+		CCECBE181D178DBC0096B55D /* QYDataBaseTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYDataBaseTool.h; sourceTree = "<group>"; };
+		CCECBE191D178DBC0096B55D /* QYDataBaseTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYDataBaseTool.m; sourceTree = "<group>"; };
+		CCECBE1B1D1790A40096B55D /* DataBaseFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataBaseFile.h; sourceTree = "<group>"; };
+		CCECBE1C1D17C7C00096B55D /* QYinsertIntoVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYinsertIntoVc.h; sourceTree = "<group>"; };
+		CCECBE1D1D17C7C00096B55D /* QYinsertIntoVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYinsertIntoVc.m; sourceTree = "<group>"; };
+		CCECBE1F1D17C9910096B55D /* QYsendPRo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYsendPRo.h; sourceTree = "<group>"; };
+		CCECBE201D17CE930096B55D /* QYUpdateVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYUpdateVC.h; sourceTree = "<group>"; };
+		CCECBE211D17CE930096B55D /* QYUpdateVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYUpdateVC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCECBDF41D177FF20096B55D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F84C4CD9E644CC82CAB18AAE /* libPods-01-数据持久化作业.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B34E6AAC53A4F3AD1567FD6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75CEE8267A8DA6969BB4DAF2 /* libPods-01-数据持久化作业.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7F90C4730A59CA7EF59EC4AB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				23705988E276BF8F33A6E3EF /* Pods-01-数据持久化作业.debug.xcconfig */,
+				0AE6B7F3EEE7282C0E34C1C6 /* Pods-01-数据持久化作业.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CCECBDEE1D177FF20096B55D = {
+			isa = PBXGroup;
+			children = (
+				CCECBDF91D177FF20096B55D /* 01-数据持久化作业 */,
+				CCECBDF81D177FF20096B55D /* Products */,
+				7F90C4730A59CA7EF59EC4AB /* Pods */,
+				1B34E6AAC53A4F3AD1567FD6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CCECBDF81D177FF20096B55D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCECBDF71D177FF20096B55D /* 01-数据持久化作业.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCECBDF91D177FF20096B55D /* 01-数据持久化作业 */ = {
+			isa = PBXGroup;
+			children = (
+				CCECBE141D1781960096B55D /* vendors */,
+				CCECBE131D1781900096B55D /* controller */,
+				CCECBE121D17818C0096B55D /* view */,
+				CCECBE111D1781860096B55D /* mode */,
+				CCECBDFA1D177FF20096B55D /* Supporting Files */,
+			);
+			path = "01-数据持久化作业";
+			sourceTree = "<group>";
+		};
+		CCECBDFA1D177FF20096B55D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCECBDFD1D177FF20096B55D /* AppDelegate.h */,
+				CCECBDFE1D177FF20096B55D /* AppDelegate.m */,
+				CCECBE061D177FF20096B55D /* Assets.xcassets */,
+				CCECBE0B1D177FF20096B55D /* Info.plist */,
+				CCECBDFB1D177FF20096B55D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCECBE111D1781860096B55D /* mode */ = {
+			isa = PBXGroup;
+			children = (
+				CCECBE151D17867E0096B55D /* QYstudent.h */,
+				CCECBE161D17867E0096B55D /* QYstudent.m */,
+			);
+			name = mode;
+			sourceTree = "<group>";
+		};
+		CCECBE121D17818C0096B55D /* view */ = {
+			isa = PBXGroup;
+			children = (
+				CCECBE031D177FF20096B55D /* Main.storyboard */,
+				CCECBE081D177FF20096B55D /* LaunchScreen.storyboard */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		CCECBE131D1781900096B55D /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				CCECBE001D177FF20096B55D /* ViewController.h */,
+				CCECBE011D177FF20096B55D /* ViewController.m */,
+				CCECBE1C1D17C7C00096B55D /* QYinsertIntoVc.h */,
+				CCECBE1D1D17C7C00096B55D /* QYinsertIntoVc.m */,
+				CCECBE201D17CE930096B55D /* QYUpdateVC.h */,
+				CCECBE211D17CE930096B55D /* QYUpdateVC.m */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		CCECBE141D1781960096B55D /* vendors */ = {
+			isa = PBXGroup;
+			children = (
+				CCECBE181D178DBC0096B55D /* QYDataBaseTool.h */,
+				CCECBE191D178DBC0096B55D /* QYDataBaseTool.m */,
+				CCECBE1B1D1790A40096B55D /* DataBaseFile.h */,
+				CCECBE1F1D17C9910096B55D /* QYsendPRo.h */,
+			);
+			name = vendors;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCECBDF61D177FF20096B55D /* 01-数据持久化作业 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCECBE0E1D177FF20096B55D /* Build configuration list for PBXNativeTarget "01-数据持久化作业" */;
+			buildPhases = (
+				D2FA4ABF13FC3CF3C42014AD /* [CP] Check Pods Manifest.lock */,
+				CCECBDF31D177FF20096B55D /* Sources */,
+				CCECBDF41D177FF20096B55D /* Frameworks */,
+				CCECBDF51D177FF20096B55D /* Resources */,
+				4495B99BF2C62C8BC4E6325A /* [CP] Embed Pods Frameworks */,
+				EE09582A66C6725E6F9776C8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "01-数据持久化作业";
+			productName = "01-数据持久化作业";
+			productReference = CCECBDF71D177FF20096B55D /* 01-数据持久化作业.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCECBDEF1D177FF20096B55D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = QingYun;
+				TargetAttributes = {
+					CCECBDF61D177FF20096B55D = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = CCECBDF21D177FF20096B55D /* Build configuration list for PBXProject "01-数据持久化作业" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCECBDEE1D177FF20096B55D;
+			productRefGroup = CCECBDF81D177FF20096B55D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCECBDF61D177FF20096B55D /* 01-数据持久化作业 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCECBDF51D177FF20096B55D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCECBE0A1D177FF20096B55D /* LaunchScreen.storyboard in Resources */,
+				CCECBE071D177FF20096B55D /* Assets.xcassets in Resources */,
+				CCECBE051D177FF20096B55D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4495B99BF2C62C8BC4E6325A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-01-数据持久化作业/Pods-01-数据持久化作业-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2FA4ABF13FC3CF3C42014AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EE09582A66C6725E6F9776C8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-01-数据持久化作业/Pods-01-数据持久化作业-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCECBDF31D177FF20096B55D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCECBE221D17CE930096B55D /* QYUpdateVC.m in Sources */,
+				CCECBE021D177FF20096B55D /* ViewController.m in Sources */,
+				CCECBDFF1D177FF20096B55D /* AppDelegate.m in Sources */,
+				CCECBDFC1D177FF20096B55D /* main.m in Sources */,
+				CCECBE171D17867E0096B55D /* QYstudent.m in Sources */,
+				CCECBE1A1D178DBC0096B55D /* QYDataBaseTool.m in Sources */,
+				CCECBE1E1D17C7C00096B55D /* QYinsertIntoVc.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CCECBE031D177FF20096B55D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCECBE041D177FF20096B55D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCECBE081D177FF20096B55D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCECBE091D177FF20096B55D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCECBE0C1D177FF20096B55D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CCECBE0D1D177FF20096B55D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCECBE0F1D177FF20096B55D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23705988E276BF8F33A6E3EF /* Pods-01-数据持久化作业.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "01-数据持久化作业/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Qingyun.-1--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CCECBE101D177FF20096B55D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AE6B7F3EEE7282C0E34C1C6 /* Pods-01-数据持久化作业.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "01-数据持久化作业/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Qingyun.-1--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCECBDF21D177FF20096B55D /* Build configuration list for PBXProject "01-数据持久化作业" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCECBE0C1D177FF20096B55D /* Debug */,
+				CCECBE0D1D177FF20096B55D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCECBE0E1D177FF20096B55D /* Build configuration list for PBXNativeTarget "01-数据持久化作业" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCECBE0F1D177FF20096B55D /* Debug */,
+				CCECBE101D177FF20096B55D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCECBDEF1D177FF20096B55D /* Project object */;
+}

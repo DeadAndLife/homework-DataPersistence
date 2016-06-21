@@ -1,0 +1,5 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
+target '01-数据持久化作业' do
+pod 'AFNetworking'
+end
